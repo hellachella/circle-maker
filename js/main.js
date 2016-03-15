@@ -5,9 +5,6 @@ $body.on('keydown', function () {
 
   $newBall.addClass('ball');
   $body.append($newBall);
-  console.log('it worked');
-  $newBall.css('left', Math.random()*1000);
-  $newBall.css('top', Math.random()*1000);
+  $newBall.css('left', Math.random() * 1000);
+  $newBall.css('top', Math.random() * 1000);
 });
-
-
