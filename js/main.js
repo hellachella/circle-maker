@@ -1,6 +1,7 @@
 var $body = $('body');
+var $html = $('html');
 
-$body.on('keydown', function () {
+$html.on('keydown', function () {
   var $newBall = $('<div>');
 
   $newBall.addClass('ball');
