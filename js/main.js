@@ -1,11 +1,13 @@
-var $body = $('body')
+var $body = $('body');
 
 $body.on('keydown', function () {
- var $newBall = $('<div>');
+  var $newBall = $('<div>');
 
- $newBall.addClass('ball');
- $body.append($newBall);
- console.log('it worked');
+  $newBall.addClass('ball');
+  $body.append($newBall);
+  console.log('it worked');
+  $newBall.css('left', Math.random()*1000);
+  $newBall.css('top', Math.random()*1000);
 });
 
 
